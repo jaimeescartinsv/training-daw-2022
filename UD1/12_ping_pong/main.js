@@ -1,9 +1,9 @@
 function pingPong() {
     for (let i = 1; i <= 100; i++) {
         if (i % 10 === 0) {
-            console.log("PONG");
+            console.log(i + " PONG");
         } else if (i % 5 === 0) {
-            console.log("PING");
+            console.log(i + " PING");
         } else {
             console.log(i);
         }
