@@ -1,9 +1,17 @@
 function pingPong() {
-
+    for (let i = 1; i <= 100; i++) {
+        if (i % 10 === 0) {
+            console.log("PONG");
+        } else if (i % 5 === 0) {
+            console.log("PING");
+        } else {
+            console.log(i);
+        }
+    }
 }
 
-pingPong()
-// expected output
+pingPong();
+// expected output:
 // 1
 // 2
 // 3
@@ -24,3 +32,4 @@ pingPong()
 // 18
 // 19
 // 20 PONG
+// ...
