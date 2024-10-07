@@ -1,4 +1,4 @@
-function printMultiplicationTables() {
+function printTablasMultiplicacion() {
     // Imprimir la cabecera
     let header = '   '; // Espacio inicial para la cabecera
     for (let j = 1; j <= 10; j++) {
@@ -16,7 +16,7 @@ function printMultiplicationTables() {
     }
 }
 
-printMultiplicationTables();
+printTablasMultiplicacion();
 // expected output:
 //       1   2   3   4   5   6   7   8   9   10
 // 1   1   2   3   4   5   6   7   8   9   10

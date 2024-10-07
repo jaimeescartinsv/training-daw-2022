@@ -1,11 +1,11 @@
 function evenNumbers() {
-    let evens = [];
+    let pares = [];
     for (let i = 1; i <= 100; i++) {
         if (i % 2 === 0) {
-            evens.push(i);
+            pares.push(i);
         }
     }
-    console.log(evens.join(', '));
+    console.log(pares.join(', '));
 }
 
 evenNumbers();
