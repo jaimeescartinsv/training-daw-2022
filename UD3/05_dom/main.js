@@ -11,5 +11,5 @@ const oneButtonDiv = document.querySelector('.buttons');
 console.log(oneButtonDiv);
 
 // Listar TODOS los divs con clase 'buttons'
-const allButtonDivs = document.querySelectorAll('.buttons');
+const allButtonDivs = document.querySelectorAll('div.buttons');
 console.log(allButtonDivs);
